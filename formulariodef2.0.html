@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormularioRegistro</title>
+    <link rel="stylesheet" href="css/sty.css">
+
+  
+
+</head>
+<body>
+
+
+
+
+    <div class="container">
+
+        <div class="titulo">
+            <p>Registro</p>
+
+        </div>
+
+        <form action="formulariodef.html" method="post" name="logearse" onsubmit="return validacion();">
+
+            <div class="usuario-detalles">
+
+                <div class="input-box">
+                    <label for="name">Nombre </label>
+                    <input id="name" name="Nombre" type="text"  value="" placeholder="Ingrese su nombre" required>
+
+
+                </div>
+                <div class="input-box">
+                    <label for="Paterno">Apellido Paterno</label>
+                    <input type="text" id="paterno" placeholder="Ingrese Apellido" required>
+
+                </div>
+                <div class="input-box">
+                    <label for="Materno">Apellido Materno</label>
+                    <input type="text" id="materno" placeholder="Ingrese Apellido" required>
+
+                </div>
+                <div class="input-box">
+                    <label for="Run">Run</label>
+                    <input type="text" id="run" placeholder="123456789" required>
+
+                </div>
+                <div class="input-box">
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" id="telefono" placeholder="+569" required>
+
+                </div>
+                <div class="input-box">
+                    <label for="Email">Email</label>
+                    <input type="email" id="email" placeholder="Ingrese Email" required>
+
+                </div>
+
+                <div class="input-box">
+                    <label for="">Fecha nacimiento</label>
+                    <input type="date" id="date" placeholder="I" required>
+
+                </div>
+
+                
+                <div class="input-box">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" id="contrasena" placeholder="Ingrese contraseña" required>
+
+                </div>
+                <div class="input-box">
+                    <label for="contraseña"> Confirmar Contraseña</label>
+                    <input type="password" id="conficontrasena" placeholder="Confirmar contraseña" required>
+
+                </div>
+
+              
+
+
+
+
+
+
+            </div>
+
+            <div class="genero">
+                <span class="genero-titulo">Género</span>
+                <input type="radio" name="genero" id="radio1">
+                <input type="radio" name="genero" id="radio2">
+                <input type="radio" name="genero" id="radio3">
+
+                <div class="categoria">
+                    <label for="radio1">
+                        <span class="dot one"></span>
+                        <span>Mujer</span>
+
+
+                    </label>
+                    <label for="radio2">
+                        <span class="dot two"></span>
+                        <span>Hombre</span>
+
+
+                    </label>
+                    <label for="radio3">
+                        <span class="dot three"></span>
+                        <span>No especificar</span>
+
+
+                    </label>
+
+
+
+                </div>
+
+            </div>
+            <div class="registro-bot">
+                <input type="submit" value="Registro" >
+            </div> 
+
+     </form> 
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="java/main2.js"></script>
+    
+</body>
+</html>
+
+
+

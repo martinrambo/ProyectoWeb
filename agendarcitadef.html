@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agendar.css">
+    <title>AgendarCita</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="titulo">
+            <p>Agendar Cita <img src="img/logoDriveNation.png-removebg-preview.png" alt=""></p>
+
+        </div>
+
+        <form action="agendarcita.html" method="post" name="logearse" onsubmit="return validacion();">
+
+            <div class="usuario-detalles">
+
+                <div class="input-box">
+                    <label for="name">Nombre Completo </label>
+                    <input id="nomc" name="Nombre" type="text"  value="" placeholder="Ingrese Nombre" required>
+
+
+                </div>
+                <div class="input-box">
+                    <label for="Run">Run</label>
+                    <input type="text" id="run" placeholder="123456789" required>
+
+                </div>
+                <div class="input-box">
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" id="telefono" placeholder="+569" required>
+
+                </div>
+                <div class="input-box">
+                    <label for="Email">Email</label>
+                    <input type="email" id="email" placeholder="Ingrese Email" required>
+
+                </div>
+
+                <div class="input-box">
+                    <label for="">Reservar cita</label>
+                    <input type="date" id="date" placeholder="I" required>
+
+                </div>
+
+                
+
+             
+              
+
+
+
+
+
+
+            </div>
+
+            
+
+            
+            <div class="registro-bot">
+                <input type="submit" value="Reservar" >
+            </div> 
+
+     </form> 
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="java/main2.js"></script>
+    
+</body>
+</html>

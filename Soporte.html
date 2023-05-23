@@ -10,20 +10,48 @@
 
 <body>
 	
-    <header>
-		<h1>Soporte</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html" class="nashe">Inicio</a></li>
-				<li><a href="#">Contacto</a></li>
-				<li><a href="#">Ayuda</a></li>
+    <  <header>
+        <div class="logo">DriverNation</div>
+        <div class="menhamb">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
 
-			</ul>
-		</nav>
-	</header>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li> <a href="index.html" >Inicio</a></li>
+                <li> <a href="carrito.html">Productos y Servicios</a></li>
+                <li> <a href="https://www.dercocenter.cl/noticias >Noticias</a></li>
+                <li> <a href="agendarcitadef.html" >Agenda tu hora</a></li>
+                <li> <a href="" >Contacto</a></li>
+            
+            </ul>
+
+        </nav>
+    </header>
 	<main>
 		<p>Bienvenido al menú de soporte. ¿En qué podemos ayudarte?</p>
 	</main>
+
+	<LAbel></LAbel><br>
+        <textarea name="motivacion" id="motivacion" cols="50" rows="10"></textarea>
+        <br>
+        <br>
+        <div class="btn">
+            <input type="button" id="enviar" value="enviar" onclick="validacion()">
+            
+    </div>
+	<script>
+        menhamb = document.querySelector(".menhamb");
+        menhamb.onclick = function(){
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active")
+        }
+       
+      
+      
+    </script>
 
 	<script src="js/main.js"></script>
 </body>
